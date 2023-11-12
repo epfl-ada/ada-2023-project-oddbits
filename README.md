@@ -27,3 +27,59 @@ You will work in a public GitHub repository dedicated to your project, which can
   - Organization within the team: A list of internal milestones up until project Milestone P3.
   - Questions for TAs (optional): Add here any questions you have for us related to the proposed project.
 - Notebook containing initial analyses and data handling pipelines. We will grade the correctness, quality of code, and quality of textual descriptions.
+
+
+### START OF THE FIRST README FILE 
+
+# Analyzing User Progress in Wikispedia Gameplay
+
+## Abstract
+
+In order to identify the changes in users' actual skills and efficiency with time and with increased experience, this study analyses the behaviour of players inside the Wikispedia dataset. Important components in the collection include user-hashed IDs, chosen paths, timestamps, game length, and user ratings. The main motivation for this research is to identify trends in user behaviour that can provide light on the elements that either support or obstruct advancement in the gaming environment. We seek to verify the widely held belief in the gaming world that playing a game repeatedly improves one's skills, we want to check if this also stands in the context of the Wikispedia game. By carefully analysing the above elements, we hope to improve our knowledge of the complex dynamics influencing user abilities and participation, which will lead to our understanding of how users interact with the Wikispedia.
+
+## Research Questions
+
+1. Does the user's true level and efficiency increase with the number of games played or repeated?
+2. Is there a correlation between time passed and user improvement in gameplay? (for users who play games with a wide spread in the timestamp of each game)
+3. How does the experience gained in each game contribute to overall user progress?
+4. What factors influence user ratings, and can they be predicted based on gameplay data? -> not sure we want to look into this
+5. Does the reason for failure (timeout or reset) provide insights into topics where users struggle the most?
+
+
+## Methods
+
+To gain a thorough grasp of user behaviour and evolution in the Wikispedia dataset we will be using CCDfs so we can monitor the change in efficiency as the number of games played increases, giving us a dynamic representation of user growth. We will evaluate the importance of our results using statistical analysis, guaranteeing the validity of our judgements. Comparative analysis will be used to compare different data clusters, like players that play different numbers of games (less than 20, 20–150, and more than 200 games). A personalised efficiency measure will be developed that accounts for characteristics such as game time, path length, and user experience, and may even go so far as to consider the semantic intricacy of selected paths. The clear display of trends, correlations, and causation between variables will be made easier with the use of visualisation techniques with libraries such as Matplotlib and Seaborn. Finally, hypothesis testing will thoroughly examine the importance of the learned information, to confirm the validity of our conclusions.
+
+## Proposed Timeline
+
+1. **Week 3-5:** Brain storming
+- Each member comes up with 3 different ideas to be assessed by the TAs 
+
+2. **Week 7-9:** Exploratory Data Analysis
+   - Perform initial data exploration to understand the structure of the dataset.
+   - Preprocess the data, handle missing values, and extract relevant features.
+   - Conduct EDA to identify patterns, trends, and outliers in user behavior.
+   - Visualize key insights and relationships within the dataset.
+- The creation of the Readme file
+
+3. **Week 12-14:** Statistical and Final Analysis and Documentation
+   - Apply statistical methods to further confirm relationships between variables.
+   - Conduct hypothesis testing to validate findings.
+   - Summarize key findings and insights.
+   - Prepare the final documentation to be presented.
+
+## Organization Within the Team
+
+**Week 7-9: Data Exploration and Preprocessing**
+1. **Marc Nassif:** Data Preprocessing
+2. **Antoine Hinary & Anthony Dawoud:** Data Exploration
+3. **Omar Shalby:** Efficency score computation
+4. **Fouad Mahmoud:** Visualization support
+
+**Week 12-14: Statistical Analysis and Hypothesis Testing**
+1. **Antoine Hinary & Anthony Dawoud & Marc Nassif:** Further Statistical Analysis
+2. **Fouad Mahmoud:** Hypothesis Testing
+3. **Omar Shalby:** Responsible for the final Analysis and deliverable
+
+## Questions for TAs
+
