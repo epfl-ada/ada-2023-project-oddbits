@@ -62,7 +62,7 @@ To gain a thorough grasp of user behaviour and evolution in the Wikispedia datas
 
 ## Modified Methods
 
-As discussed in the Abstract section we aim to attack our problem from multiple angles as some of which would show blocked roads. To name a few examples with the respective steps:
+As discussed in the [Abstract](#Abstract) section we aim to attack our problem from multiple angles as some of which would show blocked roads. To name a few examples with the respective steps:
 - We can study the improvement in speed when a player plays the same game repeatedly.
   - Steps:
        - Find and filter the dataset to extract the most played games. The idea behind this is that it’s more probable to find a user that played the same game twice if the game was played 1000 times than if it was played 1-5 times.
