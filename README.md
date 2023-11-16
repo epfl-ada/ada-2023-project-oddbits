@@ -2,12 +2,30 @@
 
 ## Abstract
 
-In order to identify the changes in users' actual skills and efficiency with time and with increased experience, this study analyses the behaviour of players of the game "Wikispeedia", a Wikipedia traversal game. We study the chosen paths and its length, as well as the type and content of the articles traversed. We seek to check whether playing Wikispeedia makes players more aware of the connections between articles, and see whether they resort to using hubs when traversing wikispeedia.
+In order to identify the changes in users' actual skills and efficiency with time and with increased experience, this study analyses the behaviour of players inside the Wikispedia dataset. Important components in the collection include user-hashed IDs, chosen paths, timestamps, game length, and user ratings. The main motivation for this research is to identify trends in user behaviour that can shed some light on the elements that either support or obstruct advancement in the gaming environment. We seek to verify the widely held belief in the gaming world that playing a game repeatedly improves one's skills, we want to check if this also stands in the context of the Wikispedia game. By carefully analysing the above elements, we hope to improve our knowledge of the complex dynamics influencing user abilities and participation, which will lead to our understanding of how users interact with the Wikispedia.
+
+
+### Modified Abstract
+
+In our upcoming analysis, we seek to determine whether engaging in computer gaming enhances the overall learning experience for players. Leveraging the Wikispeedia dataset provides a solid foundation for our study. With key information such as a unique player identifier, game duration, and a comprehensive list of played games, we can extract correlations between these gaming activities and the players' knowledge levels. However, determining the players' level poses a challenge due to factors such as the varying difficulty of different games and their impact on learning. Additionally, we question the assumption that repeating the same game leads to genuine improvement, considering the possibility of mere memorization. We'll also investigate if improvement persists when revisiting the same game and how skill development unfolds with longer gaming experiences. These inquiries will guide our exploration into the unclear relationship between gaming and knowledge enhancement.
 
 ## Research Questions
 
-1. Is there a correlation between time passed and user improvement in gameplay? (for users who play games with a wide spread in the timestamp of each game)
-2. Do players change their behaviours after playing many games? (do they more easily bridge the gap between different topics to reach their destination?)
+1. Does the user's true level and efficiency increase with the number of games played or repeated?
+2. Is there a correlation between time passed and user improvement in gameplay? (for users who play games with a wide spread in the timestamp of each game)
+3. How does the experience gained in each game contribute to overall user progress?
+4. What factors influence user ratings, and can they be predicted based on gameplay data? -> not sure we want to look into this  ** CORRECT THIS BEFORE SUBMISSION **
+5. Does the reason for failure (timeout or reset) provide insights into topics where users struggle the most?
+
+### Extra Questions
+
+6. How can we determine the difficulty of a given level? Do we use the minimal length, the semantics, etc…?
+7. How can we estimate the improvement of a players’ level after a given game but most importantly before the game? How can we know what He/She is good at?
+8. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
+9. What is the possibility that different players used the same computer and thus have the same “unique” identifier? What can we do to solve this problem?
+
+## Proposed additional datasets :
+**_Note:_** We do not need any addition dataset, we use this part to describe the datasets included with wikispeedia. Use this link to go to the next section [-> Methods](#Methods).
 
 ## Methods
 
