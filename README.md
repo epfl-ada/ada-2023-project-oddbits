@@ -1,26 +1,19 @@
 # Analyzing User Progress in Wikispedia Gameplay
-
 ## Abstract
-
 In our upcoming analysis, we seek to determine whether engaging in computer gaming enhances the overall learning experience for players. Leveraging the Wikispeedia dataset provides a solid foundation for our study. With key information such as a unique player identifier, game duration, and a comprehensive list of played games, we can extract correlations between these gaming activities and the players' knowledge levels. However, determining the players' level poses a challenge due to factors such as the varying difficulty of different games and their impact on learning. Additionally, we question the assumption that repeating the same game leads to genuine improvement, considering the possibility of mere memorization. We'll also investigate if improvement persists when revisiting the same game and how skill development unfolds with longer gaming experiences. These inquiries will guide our exploration into the unclear relationship between gaming and knowledge enhancement.
 
 ## Research Questions
-
-1. Does the user's true level and efficiency increase with the number of games played or repeated?
-2. Is there a correlation between time passed and user improvement in gameplay? (for users who play games with a wide spread in the timestamp of each game)
+1. Does the user's level increase with experience?
+2. Is there a corrolation between the time intervals between games and the improvment?
 3. How does the experience gained in each game contribute to overall user progress?
-4. What factors influence user ratings, and can they be predicted based on gameplay data? -> not sure we want to look into this  ** CORRECT THIS BEFORE SUBMISSION **
+4. What factors influence user ratings, and can they be predicted based on gameplay data? ** CORRECT THIS BEFORE SUBMISSION **
 5. Does the reason for failure (timeout or reset) provide insights into topics where users struggle the most?
 6. How can we determine the difficulty of a given level? Do we use the minimal length, the semantics, etc…?
 7. How can we estimate the improvement of a players’ level after a given game but most importantly before the game? How can we know what He/She is good at?
 8. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
 9. What is the possibility that different players used the same computer and thus have the same “unique” identifier? What can we do to solve this problem?
 
-## Proposed additional datasets :
-**_Note:_** We do not need any addition dataset, we use this part to describe the datasets included with wikispeedia [here](google.com).
-
 ## Methods
-
 As discussed in the [Abstract](#Abstract) section we aim to attack our problem from multiple angles as some of which would show blocked roads. To name a few examples with the respective steps:
 - We can study the improvement in speed when a player plays the same game repeatedly.
   - Steps:
@@ -54,15 +47,12 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
 	    - Unfortunately, yet again visually we cannot see a correlation between the 2.
 
 ## Proposed Timeline
-
 1. **Week 3-5:** Brainstorming: Each member comes up with 3 different ideas to be assessed by the TAs
-
 2. **Week 7-9:** Exploratory Data Analysis
    - Perform initial data exploration to understand the structure of the dataset.
    - Preprocess the data, handle missing values, and extract relevant features.
    - Identify patterns and trends within user behavior.
    - Visualize key insights and relationships within the dataset.
-
 3. **Week 12-14:** Statistical and Final Analysis and Documentation
    - Apply statistical methods to further confirm relationships between variables.
    - Conduct hypothesis testing to validate findings.
@@ -70,16 +60,12 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
    - Prepare the final documentation to be presented.
 
 ## Organization Within the Team
-
 ### Week 7-9: Data Exploration and Preprocessing
-
 1. **Marc:** Data Preprocessing, Code Merging, Cleanups
 2. **Antoine & Anthony:** Data Exploration
 3. **Omar:** Efficency Computation, Visualization
 4. **Fouad:** Semantic Text Analysis
-
 ### Week 12-14: Statistical Analysis and Hypothesis Testing
-
 1. **Antoine & Anthony & Marc:** Further Statistical Analysis
 2. **Fouad:** Hypothesis Testing, Further Semantic Analysis
 3. **Omar:** Visualizations, work on website.
