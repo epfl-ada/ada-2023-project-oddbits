@@ -3,15 +3,13 @@
 In our upcoming analysis, we seek to determine whether engaging in computer gaming enhances the overall learning experience for players. Leveraging the Wikispeedia dataset provides a solid foundation for our study. With key information such as a unique player identifier, game duration, and a comprehensive list of played games, we can extract correlations between these gaming activities and the players' knowledge levels. However, determining the players' level poses a challenge due to factors such as the varying difficulty of different games and their impact on learning. Additionally, we question the assumption that repeating the same game leads to genuine improvement, considering the possibility of mere memorization. We'll also investigate if improvement persists when revisiting the same game and how skill development unfolds with longer gaming experiences. These inquiries will guide our exploration into the unclear relationship between gaming and knowledge enhancement.
 
 ## Research Questions
-1. Does the user's level increase with experience?
-2. Is there a corrolation between the time intervals between games and the improvment?
-3. How does the experience gained in each game contribute to overall user progress?
-4. What factors influence user ratings, and can they be predicted based on gameplay data? ** CORRECT THIS BEFORE SUBMISSION **
-5. Does the reason for failure (timeout or reset) provide insights into topics where users struggle the most?
-6. How can we determine the difficulty of a given level? Do we use the minimal length, the semantics, etc…?
-7. How can we estimate the improvement of a players’ level after a given game but most importantly before the game? How can we know what He/She is good at?
-8. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
-9. What is the possibility that different players used the same computer and thus have the same “unique” identifier? What can we do to solve this problem?
+1. Is there a corrolation between the time intervals between games and the improvment?
+2. What factors influence user ratings, and can they be predicted based on gameplay data?
+3. Does the reason for failure (timeout or reset) provide insights into topics where users struggle the most?
+4. How can we determine the difficulty of a given level? Do we use the minimal length, the semantics, etc…?
+5. How can we estimate the improvement of a players’ level after a given game but most importantly before the game? How can we know what He/She is good at?
+6. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
+7. What is the possibility that different players used the same computer and thus have the same “unique” identifier? What can we do to solve this problem?
 
 ## Methods
 As discussed in the [Abstract](#Abstract) section we aim to attack our problem from multiple angles as some of which would show blocked roads. To name a few examples with the respective steps:
