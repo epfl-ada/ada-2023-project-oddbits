@@ -44,6 +44,8 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
 	- Conclusions:
 	    - Unfortunately, yet again visually we cannot see a correlation between the 2.
 
+**_Note:_** we were working on a skwed data therefor where unable to draw any important conclusions about the players. However, we have come up with good performance metrics e.g. mean time per page. These can be used to creat a performance score that is more representative which in combination with the difficulty of the level that we can estimate using other metrics (e.g. frequency of failure) we may find the corrolations and relationships that we are looking for.
+
 ## Proposed Timeline
 1. **Week 3-5:** Brainstorming: Each member comes up with 3 different ideas to be assessed by the TAs
 2. **Week 7-9:** Exploratory Data Analysis
