@@ -9,7 +9,6 @@ In our upcoming analysis, we seek to determine whether engaging in computer gami
 4. How can we determine the difficulty of a given level? Do we use the minimal length, the semantics, etc…?
 5. How can we estimate the improvement of a players’ level after a given game but most importantly before the game? How can we know what He/She is good at?
 6. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
-7. What is the possibility that different players used the same computer and thus have the same “unique” identifier? What can we do to solve this problem?
 
 ## Methods
 As discussed in the [Abstract](#Abstract) section we aim to attack our problem from multiple angles as some of which would show blocked roads. To name a few examples with the respective steps:
