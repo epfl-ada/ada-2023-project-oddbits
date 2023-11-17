@@ -43,7 +43,7 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
 	- Conclusions:
 	    - Unfortunately, yet again visually we cannot see a correlation between the two.
 
-**_Note:_** we were working on a skwed data therefor where unable to draw any important conclusions about the players. However, we have come up with good performance metrics e.g. mean time per page. These can be used to creat a performance score that is more representative which in combination with the difficulty of the level that we can estimate using other metrics (e.g. frequency of failure) we may find the corrolations and relationships that we are looking for.
+**_Note:_** we were working on a skewed data therefor where unable to draw any conclusive results about the players. However, we have come up with good performance metrics e.g. mean time per page. These can be used to creat a performance score that is more representative (taking into account the individual factors that at first hlance might leed to beleiving that there is no improvement at all), which in combination with the difficulty of the level that we are able to estimate, we may find the corrolations and relationships that we are looking for.
 
 ## Proposed Timeline
 1. **Week 3-5:** Brainstorming: Each member comes up with 3 different ideas to be assessed by the TAs
