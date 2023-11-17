@@ -1,17 +1,16 @@
 # Analyzing User Progress in Wikispedia Gameplay
 ## Abstract
-In our upcoming analysis, we seek to determine whether engaging in computer gaming enhances the overall learning experience for players. Leveraging the Wikispeedia dataset provides a solid foundation for our study. With key information such as a unique player identifier, game duration, and a comprehensive list of played games, we can extract correlations between these gaming activities and the players' knowledge levels. However, determining the players' level poses a challenge due to factors such as the varying difficulty of different games and their impact on learning. Additionally, we question the assumption that repeating the same game leads to genuine improvement, considering the possibility of mere memorization. We'll also investigate if improvement persists when revisiting the same game and how skill development unfolds with longer gaming experiences. These inquiries will guide our exploration into the unclear relationship between gaming and knowledge enhancement.
+In our upcoming analysis, we seek to determine whether playing the game Wikispeedia teaches the players skills, be it path traversal using optimal paths, or using category matching, or even semantics. Using the provided dataset including game durations, paths taken, and a comprehensive list of played games, we can extract correlations between these gaming activities and the players' knowledge levels. However, determining the players' level poses a challenge due to factors such as the varying difficulty of different games and their impact on learning. Additionally, we question the assumption that repeating the same game leads to genuine improvement, considering the possibility of mere memorization. We'll also investigate if improvement persists when revisiting the same game and how skill development unfolds with longer gaming experiences. These inquiries will guide our exploration into the unclear relationship between gaming and knowledge enhancement.
 
 ## Research Questions
-1. Is there a corrolation between the time intervals between games and the improvment?
-2. What factors influence user ratings, and can they be predicted based on gameplay data?
-3. Does the reason for failure (timeout or reset) provide insights into topics where users struggle the most?
-4. How can we determine the difficulty of a given level? Do we use the minimal length, the semantics, etc…?
-5. How can we estimate the improvement of a players’ level after a given game but most importantly before the game? How can we know what He/She is good at?
-6. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
+1. Is there a correlation between the time intervals between games and the improvment?
+2. Where do players struggle the most? Why?
+3. How can we determine the difficulty of a given level? Do we use the optimal length, the category differences, etc...
+4. How can we estimate the improvement of a players’ level after a given game? How can we know what they are good at?
+5. How can we detect if someone’s level is actually improving? How can we detect the effect of memorization?
 
 ## Methods
-As discussed in the [Abstract](#Abstract) section we aim to attack our problem from multiple angles as some of which would show blocked roads. To name a few examples with the respective steps:
+As discussed in the [Abstract](#Abstract) section we aim to attack our problem from multiple angles as we are bound to run into dead-ends. To name a few examples with the respective steps:
 - We can study the improvement in speed when a player plays the same game repeatedly.
   - Steps:
        - Find the most played games as it’s more probable to find a user that played the same game twice if the game was played 1000+ times.
@@ -19,14 +18,14 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
        - Check for improvement in speed.
 	- Findings:
 	    - 4 games have been played 1000+ times.
-	    - The Dataset was too constraint thus became too small (~ only a few people) to be considered representative. 
+	    - The Dataset was too constrained thus became too small (~ only a few people) to be considered representative. 
 	    - The players that did play a few times did so in a very short time implying that they might have been memorizing the path and that maybe a group of people were competing on the same computer.
 	- Conclusions:
 	    - This idea does not lead to robust conclusions. This part has thus been removed from the notebook.
 - We can expand our search by studying if the speed improves when the player has previously played a lot in general.
 	- Steps:
-	    - Find the people that only played the game once to exclude the possibility of memorization and friend competitions.
-	    - Compute there experience from the original data.
+	    - Find the people that only played the game once to exclude the possibility of memorization.
+	    - Compute their experience from the original data (previous games played).
 	    - Check for improvement.
 	- Findings:
 	    - The number of players with less experience is way larger than the ones with higher experience (5-10+ games). In other words, we have skewed data.
@@ -42,7 +41,7 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
 	- Conclusions:
 	    - Unfortunately, yet again visually we cannot see a correlation between the two.
 
-**_Note:_** we were working on a skewed data therefor where unable to draw any conclusive results about the players. However, we have come up with good performance metrics e.g. mean time per page. These can be used to creat a performance score that is more representative (taking into account the individual factors that at first hlance might leed to beleiving that there is no improvement at all), which in combination with the difficulty of the level that we are able to estimate, we may find the corrolations and relationships that we are looking for.
+**_Note:_** we were working on skewed data therefore were unable to draw any conclusive results about the players. However, we have come up with good performance metrics e.g. mean time per page. These can be used to create a performance score that is more representative (taking into account the individual factors that at first glance might leed to beleiving that there is no improvement at all), which, in combination with the difficulty of the level that we are able to estimate, may lead us to the correlations and relationships we are looking for.
 
 ## Proposed Timeline
 1. **Week 3-5:** Brainstorming: Each member comes up with 3 different ideas to be assessed by the TAs
@@ -69,7 +68,7 @@ As discussed in the [Abstract](#Abstract) section we aim to attack our problem f
 3. **Omar:** Visualizations, work on website.
 
 #### Timeline for P3
-
-- W12: Work on data, finishing up semantic analysis, website setup.
+- Before W12: Fixing up, applying our current work in a more conclusive way.
+- W12: Work on data, finishing up analysis, website setup.
 - W13: Finalization of statistical work, work on website.
 - W14: Finishing touches.
