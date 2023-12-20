@@ -1,153 +1,181 @@
-﻿Albania,96
-Algeria,73
-Angola,70
-Antigua and Barbuda,99
-Argentina,98
-Armenia,100
-Azerbaijan,100
-Bahrain,92
-Bangladesh,57
-Belarus,100
-Benin,42
-Bhutan,53
-Bolivia (Plurinational State of),91
-Bosnia and Herzegovina,98
-Botswana,84
-Brazil,90
-Brunei Darussalam,95
-Bulgaria,98
-Burkina Faso,29
-Burundi,67
-Cambodia,74
-Cameroon,71
-Cape Verde,84
-CEE/CIS,98
-Central African Republic,56
-Chad,34
-Chile,99
-China,94
-Colombia,93
-Comoros,75
-Costa Rica,96
-CÃ´te d'Ivoire,56
-Croatia,99
-Cuba,100
-Cyprus,98
-Democratic People's Republic of Korea,100
-Democratic Republic of the Congo,67
-Dominican Republic,90
-East Asia and Pacific,94
-Eastern and Southern Africa,68
-Ecuador,92
-Egypt,72
-El Salvador,84
-Equatorial Guinea,94
-Eritrea,68
-Estonia,100
-Ethiopia,39
-Gabon,88
-Gambia,50
-Georgia,100
-Ghana,67
-Greece,97
-Guatemala,75
-Guinea,41
-Guinea-Bissau,54
-Haiti,49
-Honduras,85
-Hungary,99
-India,63
-Indonesia,93
-Iran (Islamic Republic of),85
-Iraq,78
-Italy,99
-Jamaica,87
-Jordan,93
-Kazakhstan,100
-Kenya,87
-Kuwait,94
-Kyrgyzstan,99
-Lao People's Democratic Republic,73
-Latin America and Caribbean,91
-Latvia,100
-Least Developed Countries/Territories,60
-Lebanon,90
-Lesotho,90
-Liberia,61
-Libya,89
-Lithuania,100
-Madagascar,64
-Malawi,75
-Malaysia,93
-Maldives,98
-Mali,31
-Malta,92
-Mauritania,58
-Mauritius,89
-Mexico,93
-Middle East and North Africa,77
-Mongolia,97
-Montenegro,98
-Morocco,56
-Mozambique,56
-Myanmar,92
-Namibia,89
-Nepal,60
-Nicaragua,78
-Niger,29
-Nigeria,61
-Oman,87
-Pakistan,55
-Panama,94
-Papua New Guinea,61
-Paraguay,94
-Peru,90
-Philippines,95
-Poland,100
-Portugal,95
-Qatar,96
-Republic of Moldova,99
-Romania,98
-Russian Federation,100
-Rwanda,71
-Samoa,99
-Sao Tome and Principe,89
-Saudi Arabia,87
-Senegal,50
-Serbia,98
-Seychelles,92
-Sierra Leone,42
-Singapore,96
-Slovenia,100
-South Africa,89
-South Asia,62
-Spain,98
-Sri Lanka,91
-State of Palestine,95
-Sub-Saharan Africa,63
-Suriname,95
-Swaziland,87
-Syrian Arab Republic,83
-Tajikistan,100
-Thailand,94
-The former Yugoslav Republic of Macedonia,97
-Timor-Leste,58
-Togo,57
-Tonga,99
-Trinidad and Tobago,99
-Tunisia,78
-Turkey,91
-Turkmenistan,100
-Uganda,73
-Ukraine,100
-United Arab Emirates,90
-United Republic of Tanzania,73
-Uruguay,98
-Uzbekistan,99
-Vanuatu,83
-Venezuela (Bolivarian Republic of),96
-Viet Nam,93
-Western and Central Africa,57
-World,84
-Yemen,64
-Zambia,71
+﻿Afghanistan,AFG,28
+Albania,ALB,99.1
+Algeria,DZA,75.4
+Angola,AGO,70
+Antigua_and_Barbuda,ATG,99
+Argentina,ARG,97.7
+Armenia,ARM,99.7
+Australia,AUS,99
+Austria,AUT,99
+Azerbaijan,AZE,99.5
+Bahamas,BHS,95.8
+Bahrain,BHR,91.4
+Bangladesh,BGD,55.9
+Barbados,BRB,99.7
+Belarus,BLR,99.7
+Belgium,BEL,99
+Belize,BLZ,75.1
+Benin,BEN,41.7
+Bhutan,BTN,52.8
+Bolivia,BOL,90.7
+Bosnia_and_Herzegovina,BIH,97.8
+Botswana,BWA,84.1
+Brazil,BRA,90
+Brunei_Darussalam,BRN,95.3
+Bulgaria,BGR,98.3
+Burkina_Faso,BFA,28.7
+Burundi,BDI,66.6
+Cambodia,KHM,76.3
+Cameroon,CMR,67.9
+Canada,CAN,99
+Cape_Verde,CPV,84.8
+Central_African_Republic,CAF,55.2
+Chad,TCD,33.6
+Chile,CHL,96.5
+China,CHN,95.9
+Colombia,COL,93.2
+Comoros,COM,74.2
+Costa_Rica,CRI,96.1
+Côte_d'Ivoire,CIV,55.3
+Croatia,HRV,98.8
+Cuba,CUB,99.9
+Cyprus,CYP,97.9
+Czech_Republic,CZE,99
+Democratic_Republic_of_the_Congo,COD,66.8
+Denmark,DNK,99
+Djibouti,DJI,70.3
+Dominica,DMA,88
+Dominican_Republic,DOM,89.1
+Ecuador,ECU,91
+Egypt,EGY,66.4
+El_Salvador,SLV,84.1
+Equatorial_Guinea,GNQ,93.3
+Eritrea,ERI,66.6
+Estonia,EST,99.8
+Ethiopia,ETH,35.9
+Fiji,FJI,94.4
+Finland,FIN,99
+France,FRA,99
+Gabon,GAB,87.7
+Gambia,GMB,46.5
+Georgia,GEO,100
+Germany,DEU,99
+Ghana,GHA,66.6
+Greece,GRC,97.2
+Grenada,GRD,96
+Guatemala,GTM,74.5
+Guinea,GIN,39.5
+Guinea-Bissau,GNB,52.2
+Guyana,GUY,99
+Haiti,HTI,62.1
+Honduras,HND,83.6
+Hong_Kong,HKG,94.6
+Hungary,HUN,99.4
+Iceland,ISL,99
+India,IND,74.04
+Indonesia,IDN,92
+Iran,IRN,91
+Iraq,IRQ,78.1
+Ireland,IRL,99
+Israel,ISR,97.1
+Italy,ITA,98.9
+Jamaica,JAM,86.4
+Japan,JPN,99
+Jordan,JOR,91.1
+Kazakhstan,KAZ,99.6
+Kenya,KEN,87
+Kuwait,KWT,94.5
+Kyrgyzstan,KGZ,99.3
+Laos,LAO,68.7
+Latvia,LVA,99.8
+Lebanon,LBN,89.6
+Lesotho,LSO,89.7
+Libya,LBY,88.9
+Lithuania,LTU,99.7
+Luxembourg,LUX,99
+Macedonia,MKD,97.1
+Madagascar,MDG,70.7
+Malawi,MWI,73.7
+Malaysia,MYS,92.5
+Maldives,MDV,97
+Mali,MLI,26.2
+Malta,MLT,92.4
+Mauritania,MRT,57.5
+Mauritius,MUS,87.9
+Mexico,MEX,93.4
+Mongolia,MNG,97.5
+Morocco,MAR,56.1
+Mozambique,MOZ,55.1
+Myanmar,MMR,92
+Namibia,NAM,88.5
+Nepal,NPL,68.2
+Netherlands,NLD,99
+New_Zealand,NZL,99
+Nicaragua,NIC,78
+Niger,NER,28.7
+Nigeria,NGA,72
+North_Korea,KOR,99
+Norway,NOR,99
+Oman,OMN,81.4
+Pakistan,PAK,58.2
+Palestinian_Authority,PSE,94.6
+Panama,PAN,93.6
+Papua_New_Guinea,PNG,60.1
+Paraguay,PRY,94.6
+Peru,PER,89.6
+Philippines,PHL,93.4
+Poland,POL,99.5
+Portugal,PRT,94.9
+Qatar,QAT,94.7
+Republic_of_the_Congo,COG,81.1
+Romania,ROU,97.7
+Russia,RUS,99.5
+Rwanda,RWA,70.7
+Saint_Kitts_and_Nevis,KNA,97.8
+Saint_Lucia,LCA,94.8
+Saint_Vincent_and_the_Grenadines,VCT,88.1
+Samoa,WSM,98.8
+Sao_Tome_and_Principe,STP,88.8
+Saudi_Arabia,SAU,86.1
+Senegal,SEN,49.7
+Serbia,SRB,97.8
+Seychelles,SYC,91.8
+Sierra_Leone,SLE,40.9
+Singapore,SGP,94.7
+Slovakia,SVK,99
+Slovenia,SVN,99.7
+Solomon_Islands,SLB,76.6
+South_Africa,ZAF,88
+South_Korea,KOR,99
+South_Sudan,SSD,27
+Spain,ESP,97.9
+Sri_Lanka,LKA,94.2
+Sudan,SDN,70.2
+Suriname,SUR,90.4
+Swaziland,SWZ,86.9
+Sweden,SWE,99
+Switzerland,CHE,99
+Syria,SYR,84.2
+Tajikistan,TJK,99.6
+Tanzania,TZA,72.9
+Thailand,THA,94.1
+Timor-Leste,TLS,50.1
+Togo,TGO,53.2
+Tonga,TON,99.2
+Trinidad_and_Tobago,TTO,98.7
+Tunisia,TUN,77.7
+Turkey,TUR,90.8
+Turkmenistan,TKM,99.5
+Uganda,UGA,73.3
+Ukraine,UKR,99.7
+United_Arab_Emirates,ARE,90
+United_Kingdom,GBR,99
+United_States,USA,99
+Uruguay,URY,98.3
+Uzbekistan,UZB,96.9
+Vanuatu,VUT,80.2
+Venezuela,VEN,95.2
+Vietnam,VNM,92.8
+Yemen,YEM,62.4
+Zambia,ZMB,70.9
+Zimbabwe,ZWE,91.9
