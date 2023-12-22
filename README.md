@@ -31,12 +31,14 @@ After starting over from our P2 deliverable, we had to first look at success rat
 1. **Marc:** Data Preprocessing, Code Merging, Cleanups
 2. **Antoine & Anthony:** Data Exploration
 3. **Omar:** Efficency Computation, Visualization
+4. **Fouad:** Article Semantic Scores Analysis, Code Quality Checks
 
 ### Week 12-14: Statistical Analysis, Hypothesis Testing - Project Redefinition
 1. **Antoine:** Exploratory Data Analysis, Data Gathering.
 2. **Anthony:** Exploratory Data Analysis, Data Viz, Hypothesis Testing.
 3. **Marc:** Exploratory Data Analysis, Code Rewrites and Cleanup, Markdowns.
-4. **Omar:** Website, Graphic Design, Research
+4. **Fouad:** Exploratory Data Analysis, Categorical Article Analysis, Code Quality Checks
+5. **Omar:** Website, Graphic Design, Research
 
 ### Timeline during P3
 - W12: Work on data.
